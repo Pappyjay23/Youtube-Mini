@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+hr {
+    background-color: #464646;
+    height: 1px;
+    border: none;
+}
+
+body {
+    background-image: url("./Youtube-bgd.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+#navbar {
+    background-color: #212121;
+    /* height: 100px; */
+    height: 50px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+#navbar a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;  
+    text-decoration: none;  
+
+}
+
+#navbar a i.fa-bars {
+   margin-right: 1rem;    
+
+}
+
+#navbar a h1 {
+   font-size: 100%;  
+   font-family: "Oswald", sans-serif;  
+}
+
+.youtube-logo {
+    color: #f90201;
+}
+
+.menu-bars {
+    font-size: 1.2rem;
+    margin-left: 2rem;
+    color: #fff;
+}
+
+#nav-menu {
+    background-color: #212121;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    transition: 850ms;
+}
+
+#nav-menu.active {
+    left: 0;
+    transition: 350ms;
+}
+
+.nav-text {
+    list-style: none;
+    display: flex;
+    justify-content: start;
+    height: 50px;
+    padding: 1rem;
+}
+
+.nav-text a {
+    text-decoration: none;
+    color: #f5f5f5;
+    font-size: 1.2rem;
+    margin-left: 1rem;
+}
+
+.nav-text:hover {
+    background-color: rgba(144,144,144,0.219);
+    cursor: pointer;
+}
+
+.nav-menu-items {
+    width: 100%;
+}
+
+.nav-icon {
+    padding-right: 1rem;
+    color: #909090;
+}
+
+#youtube-logo {
+    color: #f90201;
+    padding-right: 0.2rem;
+}
+
+#navbar-toggle {
+    background-color: #212121;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+#navbar-toggle h1 {
+    color: #fff;
+    font-family: "Oswald", sans-serif;
+}
+
+#navbar-toggle a {
+    text-decoration: none;
+}
+
+.fa-bars {
+    color: #fff;
+}
+
+.nav-section {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
